@@ -221,10 +221,10 @@ if __name__=="__main__":
 # def sendToDB(dataFields):
 	
 # 	try:
-# 		connection = mysql.connector.connect(host='localhost',
+# 		connection = mysql.connector.connect(host='******',
 # 	                                         database='housingGR2',
 # 	                                         user='root',
-# 	                                         password='GeneticSP1')
+# 	                                         password='******')
 
 # 		dataFields['ParcelNumber'] = dataFields.pop(0)
 # 		dataFields["GovernmentUnit"] = dataFields.pop(1)
