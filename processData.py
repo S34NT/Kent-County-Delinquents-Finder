@@ -98,45 +98,12 @@ def readData():
 					dataFields['Net Price'].append("None")
 					
 					
-				# dataSeries = pd.Series(dataFields)
-				# df = df.append(dataSeries, ignore_index=True)
-				
-
-				# print("row 0: " + dataFields[0])
-				# print("row 1: " + dataFields[1])
-				# print("row 2: " + dataFields[2])
-				# print("row 3: " + dataFields[3])
-				# print("row 4: " + dataFields[4])
-				# print("row 5: " + dataFields[5])
-				# print("row 6: " + dataFields[6])
-				# print("row 7: " + dataFields[7])
-				# print("row 8: " + dataFields[8])
-				# print("row 9: " +dataFields[9])
-				# print("row 10: " +dataFields[10])
-				# print("row 11: " +dataFields[11])
-				# print("row 12: " +dataFields[12])
-				# print("row 13: " +dataFields[13])
-				# print("row 14: " +dataFields[14])
-
-
 	
-
-			
-				
-
-				# print(dataSeries)
-
-		
-
-				# oneLine = ''
-
-
-
-				# print(dataFields)
 				
 
 				#sendtoDB method takes the datafields dictionary as an argument
-	file.close()			# sendToDB(dataFields)
+	file.close()		# sendToDB(dataFields)
+	
 
 
 #FindYearsTotal takes the taxOwed String and
