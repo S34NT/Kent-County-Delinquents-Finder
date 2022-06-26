@@ -27,30 +27,9 @@ def readData():
 			oneLine = file.readline()
 			
 			if not oneLine:
-
-				# df = pd.DataFrame(allRows, columns = ['Parcel Number', 'Government Unit', 'Owner Name One', 'Owner Name Two', 'Property Address', 'Property Classification', 'School District Number & Name', 'taxOwed', 'Years Delinquent', 'Most Recent Sale Date', 'Liber / Page', 'Instrument #', 'Qualification', 'Type', 'Most Recent Sale Price', 'Net Price' ])
-				# print(len(dataFields["Parcel Number"]))
-				# print(len(dataFields["Government Unit"]))
-				# print(len(dataFields["Owner Name One"]))
-				# print(len(dataFields["Owner Name Two"]))
-				# print(len(dataFields["Property Address"]))
-				# print(len(dataFields["Property Classification"]))
-				# print(len(dataFields["School District Number & Name"]))
-				# print(len(dataFields["taxOwed"]))
-				# print(len(dataFields["Years Delinquent"]))
-				# print(len(dataFields["Most Recent Sale Date"]))
-				# print(len(dataFields["Liber / Page"]))
-				# print(len(dataFields["Instrument #"]))
-				# print(len(dataFields["Qualification"]))
-				# print(len(dataFields["Type"]))
-				# print(len(dataFields["Most Recent Sale Price"]))
-				# print(len(dataFields["Net Price"]))
 				
 				df = pd.DataFrame(dataFields)
 				print(df)
-				# df = pd.DataFrame(dataFields, columns = ['Parcel Number', 'Government Unit', 'Owner Name One', 'Owner Name Two',
-				#  'Property Address', 'Property Classification', 'School District Number & Name', 'taxOwed', 'Years Delinquent',
-				#   'Most Recent Sale Date', 'Liber / Page', 'Instrument #', 'Qualification', 'Type', 'Most Recent Sale Price', 'Net Price' ])
 
 				df.to_csv('FinalData.csv')
 
