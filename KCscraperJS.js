@@ -93,7 +93,7 @@ const chromeOptions = {
 
       theHashTable.set(parcelNum2, allData)
 
-      //Every 75 parcel numbers, write the data to the textfile
+      //Every 20 parcel numbers, write the data to the textfile
       if((x % modNumber) == 0){
 
           writeData(theHashTable);
