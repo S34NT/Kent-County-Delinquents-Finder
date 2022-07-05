@@ -3,7 +3,7 @@ Pulls property information from the Kent County Website so that tax delinquent p
 
 
 ## Description
-From the search tool that is available on https://www.accesskent.com/Property/search.do: A street range is entered, and a list of parcels numbers with links to property information are returned. By referencing the street directory, the program can search all addresses and therefore find all parcel numbers in Kent County. It then loads the data that is retrieved into a MySQL database. In this demo version, which you are free to clone and test out for yourself, the data is exported as a .csv named 'FinalData.csv'. If you wish to preview what the final result looks like you can view that file (It may look like some records are missing data but if you click into the cell you will see the data, some additional formatting is required after the csv is exported but that has yet to be built in). 
+From the search tool that is available on https://www.accesskent.com/Property/search.do: A street range is entered, and a list of parcels numbers with links to property information are returned. By referencing the street directory, the program can search all addresses and therefore find all parcel numbers in Kent County. It then loads the data that is retrieved into a MySQL database. In this demo version, which you are free to clone and test out for yourself, the data is exported as a .csv named 'FinalData.csv'. If you wish to preview what the final result looks like you can view that file (It may look like some records are missing data but you just need to highlight all of the data and select clear formatting). 
 
 
 ## Instructions
